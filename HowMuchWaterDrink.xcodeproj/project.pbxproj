@@ -11,10 +11,11 @@
 		880C18C92710759700D1C01F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C18C82710759700D1C01F /* InfoViewController.swift */; };
 		88AC4E9027105FF10071F390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC4E8F27105FF10071F390 /* AppDelegate.swift */; };
 		88AC4E9227105FF10071F390 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC4E9127105FF10071F390 /* SceneDelegate.swift */; };
-		88AC4E9427105FF10071F390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC4E9327105FF10071F390 /* ViewController.swift */; };
+		88AC4E9427105FF10071F390 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC4E9327105FF10071F390 /* DrinkViewController.swift */; };
 		88AC4E9727105FF10071F390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AC4E9527105FF10071F390 /* Main.storyboard */; };
 		88AC4E9927105FF40071F390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AC4E9827105FF40071F390 /* Assets.xcassets */; };
 		88AC4E9C27105FF40071F390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AC4E9A27105FF40071F390 /* LaunchScreen.storyboard */; };
+		88E7E53C2712BFC500ED0A71 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 88E7E53B2712BFC500ED0A71 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,7 @@
 		88AC4E8C27105FF10071F390 /* HowMuchWaterDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowMuchWaterDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AC4E8F27105FF10071F390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88AC4E9127105FF10071F390 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88AC4E9327105FF10071F390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88AC4E9327105FF10071F390 /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
 		88AC4E9627105FF10071F390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88AC4E9827105FF40071F390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AC4E9B27105FF40071F390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880C18C7271070AD00D1C01F /* TextFieldEffects in Frameworks */,
+				88E7E53C2712BFC500ED0A71 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			children = (
 				88AC4E8F27105FF10071F390 /* AppDelegate.swift */,
 				88AC4E9127105FF10071F390 /* SceneDelegate.swift */,
-				88AC4E9327105FF10071F390 /* ViewController.swift */,
+				88AC4E9327105FF10071F390 /* DrinkViewController.swift */,
 				880C18C82710759700D1C01F /* InfoViewController.swift */,
 				88AC4E9527105FF10071F390 /* Main.storyboard */,
 				88AC4E9827105FF40071F390 /* Assets.xcassets */,
@@ -90,6 +92,7 @@
 			name = HowMuchWaterDrink;
 			packageProductDependencies = (
 				880C18C6271070AD00D1C01F /* TextFieldEffects */,
+				88E7E53B2712BFC500ED0A71 /* IQKeyboardManagerSwift */,
 			);
 			productName = HowMuchWaterDrink;
 			productReference = 88AC4E8C27105FF10071F390 /* HowMuchWaterDrink.app */;
@@ -121,6 +124,7 @@
 			mainGroup = 88AC4E8327105FF10071F390;
 			packageReferences = (
 				880C18C5271070AD00D1C01F /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				88E7E53A2712BFC500ED0A71 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 88AC4E8D27105FF10071F390 /* Products */;
 			projectDirPath = "";
@@ -149,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AC4E9427105FF10071F390 /* ViewController.swift in Sources */,
+				88AC4E9427105FF10071F390 /* DrinkViewController.swift in Sources */,
 				88AC4E9027105FF10071F390 /* AppDelegate.swift in Sources */,
 				880C18C92710759700D1C01F /* InfoViewController.swift in Sources */,
 				88AC4E9227105FF10071F390 /* SceneDelegate.swift in Sources */,
@@ -380,6 +384,14 @@
 				kind = branch;
 			};
 		};
+		88E7E53A2712BFC500ED0A71 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -387,6 +399,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 880C18C5271070AD00D1C01F /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
 			productName = TextFieldEffects;
+		};
+		88E7E53B2712BFC500ED0A71 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E7E53A2712BFC500ED0A71 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
